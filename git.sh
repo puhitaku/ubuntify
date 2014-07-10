@@ -12,6 +12,12 @@ echo "E-mail =" $EMAIL
 
 git config --global user.name "$USER"
 git config --global user.email $EMAIL
+git config --global color.ui auto
+
+git config --global alias.cm 'commit -m'
+git config --global alias.cam 'commit -am'
+git config --global alias.st status
+git config --global alias.di diff
 
 echo "Generating SSH key. The passphrase is not needed so just press Enter some times."
 ssh-keygen
