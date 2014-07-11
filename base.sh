@@ -6,7 +6,7 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 sudo apt-get update
 
 echo "Installing GNOME Panel, vim, Guake, Chrome and additional tools..."
-sudo apt-get -y install git gnome-panel vim guake google-chrome-stable xclip ibus-mozc
+sudo apt-get -y install git gnome-panel vim guake google-chrome-stable xsel ibus-mozc
 
 echo "Launching ibus-setup..."
 ibus-setup
