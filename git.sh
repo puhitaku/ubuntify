@@ -29,6 +29,6 @@ echo "    HostName github.com" >> $SSHDIR/config
 echo "    IdentityFile "$SSHDIR/id_rsa >> $SSHDIR/config
 echo "    User git" >> $SSHDIR/config
 
-xclip < $SSHDIR/id_rsa.pub
+xsel --clipboard < $SSHDIR/id_rsa.pub
 echo "The SSH public key is now copied! Paste it on github's \"Add an SSH Key\" page."
 
