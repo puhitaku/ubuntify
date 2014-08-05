@@ -1,3 +1,4 @@
+#!/bin/sh
 #pyenv -> pyenv-virtualenv -> select env -> pip cython, kivy -> glut
 
 pyenv virtualenv --system-site-package 3.3.5 venv
