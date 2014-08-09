@@ -19,6 +19,8 @@ git config --global alias.cam 'commit -am'
 git config --global alias.st status
 git config --global alias.di diff
 
+git config --global core.whitespace cr-at-eol
+
 echo "Generating SSH key. The passphrase is not needed so just press Enter some times."
 ssh-keygen
 chmod 600 $SSHDIR/id_rsa
